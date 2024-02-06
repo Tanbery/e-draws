@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T07:24:42.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="GIaM_Uf36f-2ioR5mqV3" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T07:29:08.638Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ZsyFXbSoAdTVqWjN1PEZ" version="23.1.1" type="github">
   <diagram name="Page-1" id="2Py4Yaq1QEIdNbFr6_cN">
-    <mxGraphModel dx="681" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="847" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,10 +28,7 @@
         <mxCell id="VhLDoZDz8Udi8khQeBkW-7" value="Current Solution" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="157.88" y="80" width="212.12" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VhLDoZDz8Udi8khQeBkW-8" value="&lt;h1&gt;Questions&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Where is the current DB? Onprem, Cloud?&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;How car data is synchronized with DB? Stream or Batch?&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="190" width="340" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="VhLDoZDz8Udi8khQeBkW-9" value="" style="shape=mxgraph.signs.transportation.car_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="VhLDoZDz8Udi8khQeBkW-9" value="Car" style="shape=mxgraph.signs.transportation.car_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="90" y="140" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VhLDoZDz8Udi8khQeBkW-10" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -55,47 +52,47 @@
         <mxCell id="VhLDoZDz8Udi8khQeBkW-15" value="Current Solution" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="157.88" y="80" width="212.12" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VhLDoZDz8Udi8khQeBkW-16" value="&lt;h1&gt;Questions&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Where is the current DB? Onprem, Cloud?&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;How car data is synchronized with DB? Stream or Batch?&lt;/li&gt;&lt;li&gt;What is the Data size per day?&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="190" width="570" height="120" as="geometry" />
+        <mxCell id="VhLDoZDz8Udi8khQeBkW-16" value="&lt;h1&gt;Questions&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Where is the current DB? Onprem, Cloud?&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;li&gt;How car data is synchronized with DB? Stream or Batch?&lt;/li&gt;&lt;li&gt;What is the Data size per day?&lt;/li&gt;&lt;li&gt;What kind of analysis does customer want to perform?&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Any future prediction? for Car count, Oil, maintenance, mileage?&lt;/li&gt;&lt;li&gt;Column based DWS or Row based DWS&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="457" y="70" width="343" height="170" as="geometry" />
         </mxCell>
         <mxCell id="VhLDoZDz8Udi8khQeBkW-32" value="" style="shape=mxgraph.signs.transportation.car_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="97.12" y="850" width="60" height="50" as="geometry" />
+          <mxGeometry x="104.23" y="740" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VhLDoZDz8Udi8khQeBkW-34" value="DataArts Insight" style="image;html=1;image=img/lib/clip_art/finance/Pie_Chart_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="557.12" y="830" width="80" height="80" as="geometry" />
+          <mxGeometry x="564.23" y="720" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VhLDoZDz8Udi8khQeBkW-37" value="Solution 2" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="82.89000000000001" y="790" width="120" height="30" as="geometry" />
+        <mxCell id="VhLDoZDz8Udi8khQeBkW-37" value="Solution 3" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="90.00000000000001" y="680" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VhLDoZDz8Udi8khQeBkW-38" value="RDS/DWS&amp;nbsp;&lt;br&gt;or&amp;nbsp;MRS" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="411.12" y="830" width="76" height="80" as="geometry" />
+          <mxGeometry x="418.23" y="720" width="76" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VhLDoZDz8Udi8khQeBkW-39" value="Huawei Cloud" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="327.12" y="790" width="320" height="170" as="geometry" />
+          <mxGeometry x="334.23" y="680" width="335.77" height="170" as="geometry" />
         </mxCell>
         <mxCell id="VhLDoZDz8Udi8khQeBkW-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VhLDoZDz8Udi8khQeBkW-43" target="VhLDoZDz8Udi8khQeBkW-38">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="166.11999999999998" y="885" as="sourcePoint" />
-            <mxPoint x="257.12" y="885" as="targetPoint" />
+            <mxPoint x="173.23" y="775" as="sourcePoint" />
+            <mxPoint x="264.23" y="775" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VhLDoZDz8Udi8khQeBkW-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VhLDoZDz8Udi8khQeBkW-38" target="VhLDoZDz8Udi8khQeBkW-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="317.12" y="970" as="sourcePoint" />
-            <mxPoint x="337.12" y="860" as="targetPoint" />
+            <mxPoint x="324.23" y="860" as="sourcePoint" />
+            <mxPoint x="344.23" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VhLDoZDz8Udi8khQeBkW-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.942;exitY=0.383;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VhLDoZDz8Udi8khQeBkW-32" target="VhLDoZDz8Udi8khQeBkW-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="307.1200000000001" y="870" as="sourcePoint" />
-            <mxPoint x="411.12" y="870" as="targetPoint" />
+            <mxPoint x="314.23000000000013" y="760" as="sourcePoint" />
+            <mxPoint x="418.23" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VhLDoZDz8Udi8khQeBkW-43" value="DMS" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="337.12" y="855" width="50" height="30" as="geometry" />
+          <mxGeometry x="344.23" y="745" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VhLDoZDz8Udi8khQeBkW-44" value="Data Arts Studio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="346.12" y="920" width="206" height="30" as="geometry" />
+          <mxGeometry x="353.23" y="810" width="206" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VhLDoZDz8Udi8khQeBkW-46" value="" style="shape=mxgraph.signs.transportation.car_1;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="104.23" y="370" width="60" height="50" as="geometry" />
